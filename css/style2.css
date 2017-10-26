@@ -1,0 +1,72 @@
+.nav-title{
+	display: none;
+	
+}
+
+
+#meun-toggle{
+	position: absolute;
+	z-index: 11111;
+}
+.nav-main{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+}
+.nav-title li a{
+	display: block;
+	text-align:center ;
+	height: 30px;
+	line-height: 30px;
+	padding-top:0 ;
+	padding-bottom: 0;
+}
+.card{
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#meun-toggle{
+	position: absolute;
+	top: 35px;
+	right: 60px;
+	display: block;
+}
+.card1{
+	margin: 0 auto;
+}
+
+.top{
+	margin-top: 0;
+}
+.card{
+	height: auto;
+}
+.card2{
+	margin-bottom: 10px;
+}
+.card3{
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+.navbar-brand img{
+	width: 100%;
+	height: auto;
+	margin-top: 0;
+	
+}
+.navbar-right{
+	display: inline-block;
+	float: right;
+}
+.search{
+	width: 120px;
+}
+.search input{
+	width: 80px;
+}
+.navbar-nav{
+	margin: 0 -15px;
+}

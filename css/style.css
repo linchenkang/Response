@@ -1,0 +1,557 @@
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+dl,
+dt,
+dd,
+input,
+form,
+select,
+form,
+input,
+textarea {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a:link,
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+
+/*头部开始*/
+
+.header {
+	background: #FFF;
+	margin-bottom: 0;
+	border-radius: 0;
+	line-height: 100px;
+}
+
+.navbar-header a {
+	height: 100px;
+	
+	line-height: 70px;
+}
+
+.navbar-header a img {
+	width: 100%;
+	display: inline-block;
+}
+
+.nav-title li {
+	position: relative;
+}
+
+.nav-title li a {
+	display: block;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.nav-title li:hover .nav-main {
+	display: block;
+}
+
+.nav-main {
+	position: absolute;
+	z-index: 100;
+	width: 150px;
+	margin: 0 auto;
+	display: none;
+}
+
+.nav-main li {
+	border-top: 1px solid #fff;
+}
+
+.nav-main li a {
+	height: 50px;
+	line-height: 50px;
+	background: #1d2738;
+	color: #fff;
+}
+
+.nav-main li a:hover {
+	background: #fff;
+	color: #ccc;
+}
+
+#meun-toggle {
+	display: none;
+}
+
+#title-checkbox {
+	display: none;
+}
+
+.search {
+	width: 177px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin-top: 35px;
+	border-radius: 17px;
+	padding: 0 5px;
+	background: #FFF;
+}
+
+.search span {
+	margin-left: 5px;
+}
+
+.search input {
+	width: 140px;
+	height: 26px;
+	line-height: 26px;
+	border: 0;
+	padding: 0;
+	font-size: 12px;
+	outline: none;
+}
+
+
+/*头部结束*/
+
+
+/*banner 开始*/
+
+#banner .slides img {
+	width: 100%;
+}
+
+#banner .flex-control-nav {
+	bottom: 0;
+	z-index: 10;
+}
+
+#banner .flex-control-paging li a {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#banner .flex-control-paging li a.flex-active {
+	background: #94e56a;
+}
+
+
+/*banner 结束*/
+
+
+/*Main-Business 开始*/
+
+.card {
+	background: #fff;
+}
+.card img{
+	width: 100%;
+}
+#Main-Business {
+	background: url(../img/bg.jpg) no-repeat center bottom #f3f3f3;
+	padding: 0 0 30px;
+	color: #333;
+	margin-top: -20px;
+}
+
+.tlt {
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.tlt h2 {
+	color: #0670bb;
+	font-size: 30px;
+	padding: 15px 0 0;
+}
+
+.tlt p {
+	color: #ccc;
+	font-size: 16px;
+}
+
+.Main-Business .card img {
+	width: 265px;
+	height: 120px;
+	transition: all 0.4s;
+}
+
+.Main-Business .card a {
+	width: 265px;
+	height: 120px;
+	display: inline-block;
+}
+
+.card:hover .card-text{
+	transition: all 0.4s;
+	background: #f0f0f0;
+}
+
+
+/*.card:hover img{width: 200px; height: 200px;}*/
+
+.card-text {
+	height: 155px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card-text h2 a {
+	font-size: 20px;
+	padding: 10px 0;
+	color: #333;
+	line-height: 47px;
+}
+
+.card-text p a {
+	font-size: 14px;
+	color: #666;
+	display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+
+.card-text span {
+	display: block;
+	margin: 20px 0 0;
+}
+
+.card-text span a {
+	font-size: 14px;
+	color: #0670bb;
+}
+
+
+/*Main-Business 结束*/
+
+
+/*Business-Innovation 开始*/
+
+#Business-Innovation {}
+
+.card1 {
+	height: 111px;
+}
+
+.card1 span {
+	float: left;
+	display: block;
+	width: 82px;
+	height: 82px;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+	margin-right: 17px;
+	transition:0.4s;
+}
+
+.card1 span.icon1 {
+	background: url(../img/2dd0f90b504047e8810d411eb0151513.png) no-repeat;
+	background-position: center center;
+}
+
+.card1 span.icon1:hover {
+	background: url(../img/icon5_w.png) no-repeat #007AFF;
+	background-position: center center;
+	transition: all 0.4s;
+	transform:rotate(360deg) ;
+}
+
+.card1 span.icon2 {
+	background: url(../img/e45446eca0bb457e947e19c25509269b.png) no-repeat;
+	background-position: center center;
+}
+
+.card1 span.icon2:hover {
+	background: url(../img/icon8_w.png) no-repeat #007AFF;
+	background-position: center center;
+	transition: all 0.4s;
+	transform:rotate(360deg) ;
+}
+
+.card1 span.icon3 {
+	background: url(../img/5584783ea24c4ef88af38e104a119dda.png) no-repeat;
+	background-position: center center;
+}
+
+.card1 span.icon3:hover {
+	background: url(../img/icon6_w.png) no-repeat #007AFF;
+	background-position: center center;
+	transition: all 0.4s;
+	transform:rotate(360deg) ;
+}
+
+.card1 span.icon4 {
+	background: url(../img/215662d5ed554cb0984ae78a846c8fe6.png) no-repeat;
+	background-position: center center;
+}
+
+.card1 span.icon4:hover {
+	background: url(../img/icon5_w.png) no-repeat #007AFF;
+	background-position: center center;
+	transition: all 0.4s;
+	transform:rotate(360deg) ;
+}
+
+.card1 span.icon5 {
+	background: url(../img/0d593e7d27374664a15b938283dfee86.png) no-repeat;
+	background-position: center center;
+}
+
+.card1 span.icon5:hover {
+	background: url(../img/icon3_w.png) no-repeat #007AFF;
+	background-position: center center;
+	transition: all 0.4s;
+	transform:rotate(360deg) ;
+}
+
+.card1 span.icon6 {
+	background: url(../img/1adb507411f24c488f52eb0624ae9f00.png) no-repeat;
+	background-position: center center;
+}
+
+.card1 span.icon6:hover {
+	background: url(../img/icon4_w.png) no-repeat #007AFF;
+	background-position: center center;
+	transition: all 0.4s;
+	transform:rotate(360deg) ;
+}
+
+.card1 h2 {
+	margin-bottom: 5px;
+}
+
+.card1 h2 a {
+	color: #666;
+	font-size: 18px;
+}
+
+.card1 h2 a:hover {
+	color: #007AFF;
+	transition: all 0.4s;
+}
+
+.card1 p a {
+	font-size: 14px;
+	color: #999;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.top {
+	margin-top: 20px;
+}
+
+
+/*Business-Innovation 结束*/
+
+
+/*Solution 开始*/
+
+.card2 {
+	position: relative;
+	margin: 0 auto 10px 0;
+}
+
+.card2-text {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 1em;
+}
+
+.card2 .img {
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+.card2 .img img{
+	width: 100%;
+	
+}
+
+
+
+.card2 .img:hover img {
+	width: 800px;
+	
+	margin-top: -10px;
+	transition: all 0.4s;
+}
+
+.bg-color {
+	background: #fafafa;
+}
+
+.bot {
+	margin-bottom: 40px;
+}
+
+
+/*Solution 结束*/
+
+
+/*News 开始*/
+
+.card3 {
+	width: 100%;
+	height: 300px;
+	background: #fafafa;
+}
+.card3 img{
+	width: 100%;
+}
+.card3 .card-text h2 a {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.meun li {
+	background: #FAFAFA;
+	margin-bottom: 10px;
+}
+
+.meun h2 a {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	font-weight: normal;
+	color: #0670BB;
+}
+
+.meun p a {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.meun .pic {
+	float: left;
+	margin-right: 10px;
+}
+
+.meun .pic img {
+	width: 106px;
+	height: 73px;
+}
+
+
+/*News 结束*/
+
+
+/*footer 开始*/
+
+.bg {
+	background: #272727;
+}
+
+.footer {
+	margin-top: 30px;
+}
+
+.footer .title a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 28px;
+	padding-bottom: 8px;
+	display: block;
+}
+
+.footer ul li a {
+	color: #7d7d7d;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.footer ul li a:hover {
+	color: #fff;
+}
+
+.footer2 h2 {
+	line-height: 28px;
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.footer2 h2 span {
+	margin-left: 5px;
+}
+
+.footer2 img {
+	width: 104px;
+	height: 104px;
+}
+
+
+/*footer 结束*/
+
+
+/*end 开始*/
+
+#end {
+	text-align: center;
+	padding: 15px 0;
+	background: #1d1d1d;
+	color: #d6d6d6;
+	font-size: 14px;
+}
+
+#end .aa a {
+	color: #d6d6d6;
+}
+
+#end .aa a:hover {
+	color: #fff;
+}
+
+
+/*end 结束*/
